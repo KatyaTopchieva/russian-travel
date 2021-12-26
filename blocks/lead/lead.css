@@ -1,0 +1,23 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 92px;
+}
+
+.lead:last-of-type {
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+      margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+      margin-bottom: 64px;
+    }
+}
