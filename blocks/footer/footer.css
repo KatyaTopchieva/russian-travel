@@ -1,9 +1,7 @@
 .footer {
-    display: grid;
-    grid-template-columns: 4efr 1fr;
-    grid-template-rows: 1fr;
-  
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 1184px;
     height: 18px;
     margin: 0 auto;
@@ -29,9 +27,11 @@
 @media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;
+        justify-content: space-between;
         align-content: flex-start;
         width: 186px;
         height: 310px;
         padding-top: 64px;
+        margin-left: 16px;
     }
 }

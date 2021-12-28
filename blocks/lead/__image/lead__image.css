@@ -8,6 +8,7 @@
   .lead__image {
     width: 928px;
     height: 580px;
+    margin-top: 56px;
   }
 }
 
@@ -22,5 +23,6 @@
   .lead__image {
     width: 320px;
     height: 200px;
+    margin-top: 40px;
   }
 }

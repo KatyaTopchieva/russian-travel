@@ -4,7 +4,6 @@
     line-height: 16px;
     width: max-content;
     height: 16px;
-    align-self: flex-end;
 }
 
 @media screen and (max-width: 320px) {

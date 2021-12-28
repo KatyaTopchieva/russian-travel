@@ -1,6 +1,5 @@
 .place__title {
-  align-content: flex-start;
-  justify-content: center;
+  align-self: end;
   font-weight: bold;
   font-size: 72px;
   line-height: 76px;
@@ -28,5 +27,6 @@
         font-size: 32px;
         line-height: 35px;
         width: 288px;
+        margin-left: 16px;
     }
 }
