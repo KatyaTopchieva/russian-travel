@@ -90,12 +90,12 @@
       <section class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
-          <image class="place__image" src="images/place-kosa.jpg"
-          alt="Куршская коса"></image>
-          <div>
-            <h3>URL</h3>
-            <a class="place__website" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
+          <img class="place__image" src="images/place-kosa.jpg"
+          alt="Куршская коса">
           <div class="paragraphs">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных
               дюн, вы сможете увидеть два водных горизонта — спокойного
@@ -112,12 +112,12 @@
         </article>
         <article class="place">
           <h2 class="place__title">Кольский</h2>
-          <image class="place__image" src="images/place-kolsky.jpg"
-          alt="Кольский полуостров"></image>
-          <div>
-            <h3>URL</h3>
-            <a class="place__website" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+          <div class="place__website" >
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
+          <img class="place__image" src="images/place-kolsky.jpg"
+          alt="Кольский полуостров">
           <div class="paragraphs">
             <p class="place__paragraph">Почти весь полуостров находится
               за Полярным кругом. Саамская тундра, от которой на юг —
@@ -135,12 +135,12 @@
         </article>
         <article class="place">
           <h2 class="place__title">Алтай</h2>
-          <image class="place__image" src="images/place-altai.jpg"
-          alt="Алтай"></image>
-          <div>
-            <h3>URL</h3>
-            <a class="place__website" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
           </div>
+          <img class="place__image" src="images/place-altai.jpg"
+          alt="Алтай">
           <div class="paragraphs">
             <p class="place__paragraph">Алтай — одно из красивейших мест
               в России. В первую очередь из-за гор: если ехать вдоль хребта,
@@ -156,12 +156,12 @@
         </article>
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <image class="place__image" src="images/place-winter-baikal.jpg"
-          alt="Зимний Байкал"></image>
-          <div>
-            <h3>URL</h3>
-            <a class="place__website" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
+          <img class="place__image" src="images/place-winter-baikal.jpg"
+          alt="Зимний Байкал">
           <div class="paragraphs">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
               в мире. Многие также знают, что это самый большой источник пресной
@@ -176,11 +176,12 @@
         </article>
         <article class="place">
           <h2 class="place__title">Карелия</h2>
-          <image class="place__image" src="images/place-karelia.jpg" alt="Карелия"></image>
-          <div>
-            <h3>URL</h3>
-            <a class="place__website" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
+          <img class="place__image" src="images/place-karelia.jpg"
+          alt="Карелия">
           <div class="paragraphs">
             <p class="place__paragraph">Сибирь заканчивается не на Урале,
               а в Карелии: образующая тайгу сибирская лиственница не растёт
@@ -194,15 +195,41 @@
               когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </article>
-       
-
-
-
-
-
       </section>
-
+      <section class="cover">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала<br>«на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе
+            — путешествие от столицы до Байкала на электричках.</p>
+        </a>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
+     
+          <p class="footer__author">&copy;2021. Екатерина Топчиева</p>
+        
+  
+
+
+    </footer>
 </body>
 </html>

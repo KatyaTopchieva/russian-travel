@@ -1,0 +1,27 @@
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    width: 484px;
+    height: content;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraphs {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .paragraphs {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .paragraphs {
+    width: 288px;
+  }
+}
