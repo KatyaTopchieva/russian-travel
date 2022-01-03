@@ -6,13 +6,11 @@
     text-align: center;
     margin: 0 auto;
     width: 720px;
-    height: 200px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__title {
         width: 720px;
-        height: 200px;
         font-size: 96px;
         line-height: 100px;
     }
@@ -21,7 +19,6 @@
 @media screen and (max-width: 768px) {
     .lead__title {
         width: 720px;
-        height: 200px;
         font-size: 96px;
         line-height: 100px;
     }
