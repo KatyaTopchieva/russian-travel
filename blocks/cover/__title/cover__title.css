@@ -5,14 +5,26 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 560px;
+  width: 47%;
   z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    width: 73%;
+  }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
       font-size: 32px;
       line-height: 35px;
-      width: 250px;
+      width: 70%;
     }
 }
