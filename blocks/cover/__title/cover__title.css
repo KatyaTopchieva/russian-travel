@@ -21,6 +21,22 @@
   }
 }
 
+@media screen and (max-width: 540px) {
+  .cover__title {
+    font-size: 50px;
+    line-height: 52px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 42px;
+    line-height: 44px;
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
       font-size: 32px;

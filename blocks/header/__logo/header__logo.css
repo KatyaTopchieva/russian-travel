@@ -17,8 +17,32 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+  .header__logo {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__logo {
+    width: 45%;
+  }
+}
+
 @media screen and (max-width: 320px) {
     .header__logo {
       width: 49%;
     }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 52%;
+  }
 }

@@ -1,25 +1,40 @@
 .intro__title {
-    font-size: 54px;
     font-weight: bold;
-    line-height: 58px;
-    width: 690px;
-    height: 58px;
     margin: 0;
+}
+
+@media screen and (max-width: 2560px) {
+  .intro__title {
+    width: 100%;
+    font-size: 54px;
+    line-height: 58px;
+  }
 }
 
   @media screen and (max-width: 768px) {
     .intro__title {
-      width: 720px;
-      height: 58px;
-      font-size: 54px;
-      line-height: 58px;
+      width: 94%;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .intro__title {
+      width: 98%;
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .intro__title {
+      width: 90%;
+      font-size: 32px;
+      line-height: 35px;
     }
   }
   
   @media screen and (max-width: 320px) {
     .intro__title {
-      width: 288px;
-      height: 70px;
+      width: 90%;
       font-size: 32px;
       line-height: 35px;
     }
