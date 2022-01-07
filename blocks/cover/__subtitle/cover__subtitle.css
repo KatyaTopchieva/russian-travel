@@ -10,21 +10,27 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .cover__subtitle {
     width: 35%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
   .cover__subtitle {
     width: 47%;
   }
 }
 
+@media screen and (max-width: 700px) {
+  .cover__subtitle {
+    width: 65%;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .cover__subtitle {
-    width: 70%;
+    width: 80%;
     padding-top: 16px;
   }
 }
@@ -37,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .cover__subtitle {
       font-size: 14px;
       line-height: 16px;

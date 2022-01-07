@@ -8,8 +8,9 @@
   padding-bottom: 12px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
     .place__url-heading {
         margin-left: 16px;
+        width: 90%;
     }
 }

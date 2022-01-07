@@ -1,9 +1,16 @@
 .paragraphs {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    align-content: start;
+    justify-self: center;
     width: 100%;
     height: max-content;
     margin: 0;
+}
+
+@media screen and (max-width: 380px) {
+    .paragraphs {
+        width: 90%;
+    }
 }

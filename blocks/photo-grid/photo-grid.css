@@ -1,8 +1,8 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    row-gap: 16px;
     width: 93%;
     padding-top: 92px;
     margin: 0 auto;
@@ -23,7 +23,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
+  .photo-grid {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 4250px) {
     .photo-grid {
       gap: 12px;
       width: 90%;
