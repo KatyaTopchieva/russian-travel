@@ -5,37 +5,23 @@
   min-height: 740px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
     .cover {
       width: 100%;
       min-height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .cover {
       min-height: 480px;
       padding-top: 90px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .cover {
-    min-height: 350px;
+    min-height: 200px;
     padding-top: 64px;
   }
-}
-
-@media screen and (max-width: 375px) {
-  .cover {
-    min-height: 300px;
-    padding-top: 64px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-      min-height: 200px;
-      padding-top: 64px;
-    }
 }
