@@ -3,27 +3,22 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-top: 92px;
+    width: 77%;
+    padding-top: 56px;
 }
 
 .lead:last-of-type {
     align-items: flex-start;
 }
 
-@media screen and (max-width: 1280px) {
-  .lead {
-    width: 77%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
   .lead {
     width: 91%;
     padding-top: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .lead {
     width: 100%;
   }

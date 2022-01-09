@@ -7,10 +7,12 @@
   text-decoration: none;
   color: #FFFFFF;
   margin-bottom: 16px;
+  opacity: 1;
 }
 
 .header__lang-link:hover {
   text-decoration: underline;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

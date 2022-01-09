@@ -4,39 +4,29 @@
   justify-content: flex-start;
   align-items: flex-start;
   align-self: flex-start;
-
-  max-width: 720px;
+  max-width: 690px;
   padding-top: 92px;
   margin-left: 148px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
   .intro {
     margin-left: 48px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
   .intro {
     margin-left: 35px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
+    max-width: 720px;
     padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .intro {
     margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .intro {
-   width: 95%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro {
     padding-top: 64px;
+    width: 90%;
   }
 }

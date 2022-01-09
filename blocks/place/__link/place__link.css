@@ -5,6 +5,11 @@
     text-decoration: underline;
     color: #FFF;
     width: 100%;
+    opacity: 1;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 380px) {
