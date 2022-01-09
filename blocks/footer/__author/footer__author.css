@@ -1,11 +1,11 @@
 .footer__author {
     margin: 0;
     font-size: 14px;
+    font-style: normal;
     line-height: 16px;
-    width: max-content;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 540px) {
     .footer__author {
         margin-top: 48px;
     }

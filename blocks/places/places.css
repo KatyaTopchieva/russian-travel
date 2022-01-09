@@ -8,26 +8,20 @@
   padding-top: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
     .places {
       width: 91%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .places {
       width: 94%;
-      padding-top: 90px;  
+      padding-top: 88px;  
     }
 }
 
-@media screen and (max-width: 375px) {
-  .places {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .places {
       width: 100%;
       padding-top: 66px; 

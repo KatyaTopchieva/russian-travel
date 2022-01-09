@@ -2,17 +2,19 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: normal;
+    font-style: normal;
     text-decoration: underline;
     color: #FFF;
     width: 100%;
     opacity: 1;
+    transition: 0.5s;
 }
 
 .place__link:hover {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 540px) {
     .place__link {
         width: 90%;
         margin-left: 16px;
