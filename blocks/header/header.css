@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 93%;
-    max-height: 52px;
+    height: max-content;
     padding-top: 28px;
     margin: 0 auto;
 }
@@ -24,7 +24,6 @@
 @media screen and (max-width: 540px) {
     .header {
         width: 90%;
-        max-height: 42px;
         padding-top: 16px;
     }
 }
